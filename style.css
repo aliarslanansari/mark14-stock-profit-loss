@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+:root {
+  --text-primary: #ececec;
+  --background-color-primary: rgb(169, 192, 253);
+  --background-color-secondary: rgb(59, 84, 151);
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  background-color: var(--background-color-primary);
+  height: 100vh;
+}
+label {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+main {
+  width: 100%;
+  margin-top: 3rem;
+}
+input {
+  text-align: center;
+  padding: 0.5rem;
+  min-width: 300px;
+  border: 2px solid var(--background-color-secondary);
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 320px;
+  padding: 0.5rem;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  background-color: var(--background-color-secondary);
+}
+header {
+  color: var(--text-primary);
+  width: 100%;
+  background-color: var(--background-color-secondary);
+  display: flex;
+  justify-content: center;
+}
+footer {
+  color: var(--text-primary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color-secondary);
+}
+
+#message-container {
+  margin: 1rem;
+  color: darkslategrey;
+}
